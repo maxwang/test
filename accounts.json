@@ -1,0 +1,409 @@
+{
+  "Accounts": {
+    "section": [
+      {
+        "dv": "Account Information",
+        "FL": [
+          {
+            "dv": "Account Owner",
+            "customfield": "false",
+            "maxlength": "120",
+            "isreadonly": "false",
+            "label": "Account Owner",
+            "type": "Lookup",
+            "req": "false"
+          },
+          {
+            "val": [
+              "SMSe Reseller",
+              "Bitdefender Bronze",
+              "Bitdefender Silver",
+              "Bitdefender Gold",
+              "Gwava GAP"
+            ],
+            "dv": "Vendor Status",
+            "customfield": "true",
+            "maxlength": "100",
+            "isreadonly": "false",
+            "label": "Vendor Status",
+            "type": "Multiselect Pick List",
+            "req": "false"
+          },
+          {
+            "dv": "Account Name",
+            "customfield": "false",
+            "maxlength": "200",
+            "isreadonly": "false",
+            "label": "Account Name",
+            "type": "Text",
+            "req": "true"
+          },
+          {
+            "val": [
+              "-None-",
+              "Unqualified",
+              "Qualified (EU)",
+              "Channel Registered",
+              "ShutDown (Dead)",
+              "Channel Prospect",
+              "Channel Unallocated"
+            ],
+            "dv": "Rating",
+            "customfield": "false",
+            "maxlength": "120",
+            "isreadonly": "false",
+            "label": "Rating",
+            "type": "Pick List",
+            "req": "true"
+          },
+          {
+            "dv": "ABN (Company Num)",
+            "customfield": "true",
+            "maxlength": "250",
+            "isreadonly": "false",
+            "label": "ABN (Company Num)",
+            "type": "Text",
+            "req": "false"
+          },
+          {
+            "dv": "Phone",
+            "customfield": "false",
+            "maxlength": "30",
+            "isreadonly": "false",
+            "label": "Phone",
+            "type": "Phone",
+            "req": "false"
+          },
+          {
+            "dv": "Parent Account",
+            "customfield": "false",
+            "maxlength": "100",
+            "isreadonly": "false",
+            "label": "Parent Account",
+            "type": "Lookup",
+            "req": "false"
+          },
+          {
+            "dv": "Fax",
+            "customfield": "false",
+            "maxlength": "30",
+            "isreadonly": "false",
+            "label": "Fax",
+            "type": "Text",
+            "req": "false"
+          },
+          {
+            "val": [
+              "-None-",
+              "Channel",
+              "Enduser"
+            ],
+            "dv": "Account Type",
+            "customfield": "false",
+            "maxlength": "120",
+            "isreadonly": "false",
+            "label": "Account Type",
+            "type": "Pick List",
+            "req": "true"
+          },
+          {
+            "dv": "Website",
+            "customfield": "false",
+            "maxlength": "255",
+            "isreadonly": "false",
+            "label": "Website",
+            "type": "Website",
+            "req": "false"
+          },
+          {
+            "val": [
+              "-None-",
+              "Education",
+              "Banking and Finance",
+              "Insurance",
+              "Professional Services (SMB)",
+              "Government",
+              "IT and Technology",
+              "Manufacturing",
+              "Construction",
+              "Hospitality",
+              "Leisure",
+              "Professional Services (Ent)",
+              "Medical",
+              "Retail",
+              "Agriculture",
+              "Not for Profit"
+            ],
+            "dv": "Industry",
+            "customfield": "false",
+            "maxlength": "120",
+            "isreadonly": "false",
+            "label": "Industry",
+            "type": "Pick List",
+            "req": "false"
+          },
+          {
+            "val": [
+              "-None-",
+              "Other",
+              "Private",
+              "Public",
+              "Subsidiary"
+            ],
+            "dv": "Ownership",
+            "customfield": "false",
+            "maxlength": "120",
+            "isreadonly": "false",
+            "label": "Ownership",
+            "type": "Pick List",
+            "req": "false"
+          },
+          {
+            "dv": "Annual Revenue",
+            "customfield": "false",
+            "maxlength": "16",
+            "isreadonly": "false",
+            "fval": "$0.00",
+            "label": "Annual Revenue",
+            "type": "Currency",
+            "req": "false"
+          },
+          {
+            "dv": "Modified By",
+            "customfield": "false",
+            "maxlength": "25",
+            "isreadonly": "false",
+            "label": "Modified By",
+            "type": "OwnerLookup",
+            "req": "false"
+          },
+          {
+            "dv": "Created By",
+            "customfield": "false",
+            "maxlength": "25",
+            "isreadonly": "false",
+            "label": "Created By",
+            "type": "OwnerLookup",
+            "req": "false"
+          },
+          {
+            "val": [
+              "-None-",
+              "1 - 24",
+              "25 - 49",
+              "50 - 199",
+              "200+"
+            ],
+            "dv": "No of Employees",
+            "customfield": "true",
+            "maxlength": "100",
+            "isreadonly": "false",
+            "label": "No of Employees",
+            "type": "Pick List",
+            "req": "false"
+          },
+          {
+            "val": [
+              "-None-",
+              {
+                "default": "true",
+                "content": "incomplete"
+              },
+              "3 - 24",
+              "25 - 49",
+              "50 - 199",
+              "200 - 999",
+              "1000+",
+              "N/A"
+            ],
+            "dv": "No of Endpoints (EPP)",
+            "customfield": "true",
+            "maxlength": "100",
+            "isreadonly": "false",
+            "label": "No of Endpoints (EPP)",
+            "type": "Pick List",
+            "req": "true"
+          },
+          {
+            "val": [
+              "AUD",
+              "USD",
+              "NZD"
+            ],
+            "dv": "Currency",
+            "customfield": "false",
+            "maxlength": "5",
+            "isreadonly": "false",
+            "label": "Currency",
+            "type": "Pick List",
+            "req": "false"
+          },
+          {
+            "dv": "Territories",
+            "customfield": "false",
+            "maxlength": "120",
+            "isreadonly": "false",
+            "label": "Territories",
+            "type": "Text",
+            "req": "false"
+          },
+          {
+            "dv": "Account Linkedin",
+            "customfield": "true",
+            "maxlength": "255",
+            "isreadonly": "false",
+            "label": "Account Linkedin",
+            "type": "Website",
+            "req": "false"
+          },
+          {
+            "dv": "Last Activity Time",
+            "customfield": "false",
+            "maxlength": "25",
+            "isreadonly": "false",
+            "label": "Last Activity Time",
+            "type": "DateTime",
+            "req": "false"
+          },
+          {
+            "dv": "Facebook",
+            "customfield": "true",
+            "maxlength": "255",
+            "isreadonly": "false",
+            "label": "Facebook",
+            "type": "Website",
+            "req": "false"
+          },
+          {
+            "dv": "Instagram",
+            "customfield": "true",
+            "maxlength": "255",
+            "isreadonly": "false",
+            "label": "Instagram",
+            "type": "Website",
+            "req": "false"
+          },
+          {
+            "dv": "Google+",
+            "customfield": "true",
+            "maxlength": "255",
+            "isreadonly": "false",
+            "label": "Google+",
+            "type": "Website",
+            "req": "false"
+          }
+        ],
+        "name": "Account Information"
+      },
+      {
+        "dv": "Address Information",
+        "FL": [
+          {
+            "dv": "Billing Country",
+            "customfield": "false",
+            "maxlength": "30",
+            "isreadonly": "false",
+            "label": "Billing Country",
+            "type": "Text",
+            "req": "false"
+          },
+          {
+            "dv": "Shipping Country",
+            "customfield": "false",
+            "maxlength": "30",
+            "isreadonly": "false",
+            "label": "Shipping Country",
+            "type": "Text",
+            "req": "false"
+          },
+          {
+            "dv": "Billing Street",
+            "customfield": "false",
+            "maxlength": "250",
+            "isreadonly": "false",
+            "label": "Billing Street",
+            "type": "Text",
+            "req": "false"
+          },
+          {
+            "dv": "Shipping Street",
+            "customfield": "false",
+            "maxlength": "250",
+            "isreadonly": "false",
+            "label": "Shipping Street",
+            "type": "Text",
+            "req": "false"
+          },
+          {
+            "dv": "Billing City",
+            "customfield": "false",
+            "maxlength": "30",
+            "isreadonly": "false",
+            "label": "Billing City",
+            "type": "Text",
+            "req": "false"
+          },
+          {
+            "dv": "Shipping City",
+            "customfield": "false",
+            "maxlength": "30",
+            "isreadonly": "false",
+            "label": "Shipping City",
+            "type": "Text",
+            "req": "false"
+          },
+          {
+            "dv": "Billing State",
+            "customfield": "false",
+            "maxlength": "30",
+            "isreadonly": "false",
+            "label": "Billing State",
+            "type": "Text",
+            "req": "false"
+          },
+          {
+            "dv": "Shipping State",
+            "customfield": "false",
+            "maxlength": "30",
+            "isreadonly": "false",
+            "label": "Shipping State",
+            "type": "Text",
+            "req": "false"
+          },
+          {
+            "dv": "Billing Code",
+            "customfield": "false",
+            "maxlength": "30",
+            "isreadonly": "false",
+            "label": "Billing Code",
+            "type": "Text",
+            "req": "false"
+          },
+          {
+            "dv": "Shipping Code",
+            "customfield": "false",
+            "maxlength": "30",
+            "isreadonly": "false",
+            "label": "Shipping Code",
+            "type": "Text",
+            "req": "false"
+          }
+        ],
+        "name": "Address Information"
+      },
+      {
+        "dv": "Description Information",
+        "FL": {
+          "dv": "Description",
+          "customfield": "false",
+          "maxlength": "32000",
+          "isreadonly": "false",
+          "label": "Description",
+          "type": "TextArea",
+          "req": "false"
+        },
+        "name": "Description Information"
+      }
+    ]
+  }
+}
